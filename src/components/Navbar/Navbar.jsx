@@ -24,31 +24,26 @@ const Navbar = () => {
             </div>
 
             <ul className="navbar_wrapper">
-                <NavbarLink href={"/"} icon={<BsBuildings />} text={"Главный"} />
+                <NavbarLink href={"/"} icon={<MdOutlinePeopleAlt />} text={"Пользователи"} />
                 <NavbarLink
-                    href={""}
+                    href={"/products"}
                     icon={<PiNutBold />}
                     text={"Продукты"}
                 />
                 <NavbarLink
-                    href={""}
+                    href={"/clients"}
                     icon={<BsFillPersonLinesFill />}
                     text={"Клиенты"}
                 />
                 <NavbarLink
-                    href={""}
+                    href={"/deliverymans"}
                     icon={<TbTruckDelivery />}
                     text={"Курьеры"}
                 />
                 <NavbarLink
-                    href={""}
+                    href={"/orders"}
                     icon={<BsPlusSquareDotted />}
                     text={"Заказы"}
-                />
-                <NavbarLink
-                    href={""}
-                    icon={<MdOutlinePeopleAlt />}
-                    text={"Пользователи"}
                 />
             </ul>
 

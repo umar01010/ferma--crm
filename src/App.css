@@ -4,6 +4,13 @@
     box-sizing: border-box;
 }
 
+.container {
+    width: 100%;
+    max-width: 1576px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
 .global_wrapper {
     display: flex;
     width: 100%;
