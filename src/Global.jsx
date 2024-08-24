@@ -6,8 +6,11 @@ const Global = () => {
     return (
         <div className="global_wrapper">
             <Navbar />
+            <div className='main'>
 
-            <App />
+                <App />
+            </div>
+
         </div>
     )
 }
