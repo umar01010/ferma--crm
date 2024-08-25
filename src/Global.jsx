@@ -7,7 +7,6 @@ const Global = () => {
         <div className="global_wrapper">
             <Navbar />
             <div className='main'>
-
                 <App />
             </div>
 
